@@ -1,0 +1,124 @@
+*** 👤 Person***
+==========================
+
+| Method          | Example Output |
+| --------------- | -------------- |
+| `name()`        | "John Doe"     |
+| `firstName()`   | "Sarah"        |
+| `lastName()`    | "Rahman"       |
+| `title()`       | "Mr."          |
+| `titleMale()`   | "Dr."          |
+| `titleFemale()` | "Mrs."         |
+| `suffix()`      | "Jr."          |
+
+*** 📧 Internet ***
+===================
+| Method                  | Example Output                                  |
+| ----------------------- | ----------------------------------------------- |
+| `email()`               | "[susan@gmail.com](mailto:susan@gmail.com)"     |
+| `safeEmail()`           | "[alex@example.org](mailto:alex@example.org)"   |
+| `unique()->safeEmail()` | always unique                                   |
+| `freeEmail()`           | "[mark@yahoo.com](mailto:mark@yahoo.com)"       |
+| `companyEmail()`        | "[support@apple.com](mailto:support@apple.com)" |
+| `domainName()`          | "example.com"                                   |
+| `url()`                 | "[https://laravel.com](https://laravel.com)"    |
+| `ipv4()`                | "192.168.1.1"                                   |
+| `ipv6()`                | "2001:0db8:85a3::8a2e:0370:7334"                |
+| `macAddress()`          | "00:1B:44:11:3A\:B7"                            |
+| `userName()`            | "johndoe92"                                     |
+| `password()`            | "t9Gs\@5qK"                                     |
+
+
+*** 📱 Phone / Address ***
+====================================
+| Method              | Example Output                 |
+| ------------------- | ------------------------------ |
+| `phoneNumber()`     | "+1 (555) 123-4567"            |
+| `e164PhoneNumber()` | "+12025550123"                 |
+| `address()`         | "123 Main St, Springfield, IL" |
+| `streetAddress()`   | "456 Oak Ave"                  |
+| `city()`            | "Dhaka"                        |
+| `state()`           | "California"                   |
+| `country()`         | "Bangladesh"                   |
+| `postcode()`        | "1207"                         |
+
+*** 🏢 Company *** 
+=======================
+| Method            | Example Output                   |
+| ----------------- | -------------------------------- |
+| `company()`       | "Acme Ltd"                       |
+| `companySuffix()` | "LLC"                            |
+| `jobTitle()`      | "Software Engineer"              |
+| `catchPhrase()`   | "Innovating the future"          |
+| `bs()`            | "empower scalable supply chains" |
+
+
+*** 💵 Finance ***
+=================================
+| Method                       | Example Output                                            |
+| ---------------------------- | --------------------------------------------------------- |
+| `creditCardNumber()`         | "4539 1234 5678 9012"                                     |
+| `creditCardType()`           | "Visa"                                                    |
+| `creditCardExpirationDate()` | 2026-09-30                                                |
+| `iban()`                     | "GB82 WEST 1234 5698 7654 32"                             |
+| `swiftBicNumber()`           | "DEUTDEFF"                                                |
+| `randomFloat(2, 10, 1000)`   | 245.75 (random price with 2 decimals between 10 and 1000) |
+
+*** 📆 Date Time ***
+============================
+| Method                              | Example Output           |
+| ----------------------------------- | ------------------------ |
+| `date()`                            | "2025-09-08"             |
+| `time()`                            | "15:23:45"               |
+| `dateTime()`                        | "2025-09-08 08:15:30"    |
+| `dateTimeBetween('-1 year', 'now')` | random date in last year |
+| `dateTimeThisYear()`                | random date this year    |
+| `dateTimeThisMonth()`               | random date this month   |
+| `dayOfWeek()`                       | "Monday"                 |
+| `monthName()`                       | "September"              |
+| `unixTime()`                        | 1700000000               |
+
+
+*** 🖼️ Text & Content ***
+===================================
+| Method                | Example Output                                 |
+| --------------------- | ---------------------------------------------- |
+| `word()`              | "innovation"                                   |
+| `words(3, true)`      | "smart scalable solution"                      |
+| `sentence()`          | "The quick brown fox jumps over the lazy dog." |
+| `sentences(3, true)`  | 3 sentences combined                           |
+| `paragraph()`         | A full paragraph                               |
+| `paragraphs(2, true)` | 2 paragraphs combined                          |
+| `text(200)`           | 200 chars of text                              |
+
+*** 🌍 Miscellaneous ***
+==========================================
+| Method                                          | Example Output                         |
+| ----------------------------------------------- | -------------------------------------- |
+| `uuid()`                                        | "550e8400-e29b-41d4-a716-446655440000" |
+| `boolean()`                                     | true / false                           |
+| `randomDigit()`                                 | 7                                      |
+| `randomDigitNotNull()`                          | 3 (never zero)                         |
+| `numberBetween(100, 999)`                       | 453                                    |
+| `randomNumber(5, true)`                         | 83942                                  |
+| `randomElement(['Pending','Paid','Cancelled'])` | "Paid"                                 |
+| `optional()->word()`                            | "sometimes returns null"               |
+
+
+*** 🍔 Specific Data (Nice for CRMs / Shops) ***
+=================================================
+| Method              | Example Output    |
+| ------------------- | ----------------- |
+| `currencyCode()`    | "USD"             |
+| `languageCode()`    | "en"              |
+| `countryCode()`     | "BD"              |
+| `locale()`          | "en\_US"          |
+| `mimeType()`        | "application/pdf" |
+| `fileExtension()`   | "jpg"             |
+| `colorName()`       | "Blue"            |
+| `hexColor()`        | "#a3e4d7"         |
+| `rgbColorAsArray()` | \[123, 45, 67]    |
+
+
+
+
