@@ -1,0 +1,31 @@
+Some terms ans usages:
+=============================================
+1. with () : use for Eager Loading
+
+2. Eager Loading: 
+    * To Avoid N+1 problem
+    * Load specific columns in relationship
+    * Improve performance and reduce db queries
+    * Load related models
+    * Fewer queries and early 
+
+3. Lazy Loading:
+    * Cause to N+1 problem
+    * Run new query each time
+    * Happens automatically when access a new realtion
+
+4. N+1 Problem
+    * Load one main record (1 query)
+    * For each those records, load related data (N queries)
+    * example => 1 customer + 1 Transaction + 10 products = 12 queries
+
+5. select() clause (part of SQL statement):
+    * select specific column from DB
+    * Safer, parameterized
+    * use when selecting specific column without custom expression
+
+6. selectRaw() clause :
+    * when need to write raw sql expression in select clause
+    * use when need SQL function, expression, alaises, subqueries
+    
+
