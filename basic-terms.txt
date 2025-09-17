@@ -1,0 +1,3 @@
+Laravel Basic terms and purpose:
+1. Facade:
+In a Laravel application, a facade is a class that provides access to an object from the container
